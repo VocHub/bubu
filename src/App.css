@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.animes-list{
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+list-style: none;
+grid-gap: 1.5rem;
+grid-row-gap: 2rem;
+}
+
+.animes-list li{
+  box-shadow: 2px 2px black;
+  border-radius: 10px;
+}
+.animes-list li:hover{
+transform: scale(1.02);
+box-shadow: 6px 10px 10px black;
+transition: all ease 0.2s;
+cursor: pointer;
+}
+.animes-list img{
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid red
+
+}
